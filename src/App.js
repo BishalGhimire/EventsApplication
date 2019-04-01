@@ -1,7 +1,9 @@
 import React, { Component } from 'react';
 import './resources/styles.css';
+import './components/featured/index'
 
 import Header from './components/header_footer/Header';
+import Featured from './components/featured';
 
 
 class App extends Component {
@@ -9,6 +11,7 @@ class App extends Component {
     return (
       <div className="App" style={{ height:"1500px",background:'cornflowerblue'}}>
         <Header/>
+        <Featured/>
       </div>
     );
   }
