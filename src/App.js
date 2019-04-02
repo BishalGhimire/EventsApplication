@@ -7,6 +7,7 @@ import VenueInfo from './components/VenueInfo';
 import Highlights from './components/Highlights/index';
 import Pricing from './components/Pricing/index';
 import Location from './components/location/index';
+import Footer from './components/header_footer/footer';
 
 
 class App extends Component {
@@ -19,6 +20,7 @@ class App extends Component {
         <Highlights/>
         <Pricing/>
         <Location/>
+        <Footer/>
       </div>
     );
   }
